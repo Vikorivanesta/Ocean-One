@@ -1,0 +1,55 @@
+body {
+    background-color: #e5e5e5;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-royalBlue {
+    background-color: #03256c;
+}
+.text-royalBlue {
+    color: #03256c;
+}
+.text-aero-dark {
+    color: #65b891;
+}
+.text-aero-light {
+    color: #c9ffe5;
+}
+.bd-masthead {
+    background-image: url(Img/bg-image-12.jpg);
+    background-size: cover;
+    color: white;
+}
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: white;
+    --bs-btn-bg: #712cf9;
+    --bs-btn-border-color: #712cf9;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: #712cf9;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8
+}
+.section3 {
+    background-image: url(Img/bg-image-16.jpg);
+    background-size: cover;
+}
+.section5 {
+    background-color: #65b891;
+}
+.btn-sect2 {
+    width: 170px;
+}
+
+@media (min-width: 992px) {
+.position-bottom {
+    position: absolute;
+    bottom: 0;
+}
+.form-floating {
+    width: 80%;
+}
+}
