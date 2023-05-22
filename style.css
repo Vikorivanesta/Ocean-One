@@ -44,6 +44,10 @@ body {
     width: 170px;
 }
 
+#btn-done {
+    display: none;
+}
+
 @media (min-width: 992px) {
 .position-bottom {
     position: absolute;
